@@ -1,0 +1,9 @@
+{
+    "posts": [
+        {
+            "postName": "Post 1",
+            "postImage": "defaultImage",
+            "content": "Here is some JavaScript code: \n ~~~js \n console.log('It works!'); \n //I don't know how that's working but it is so I'm going to leave it \n ~~~ \n Heres the continuation of the post"
+        }
+    ]
+}
