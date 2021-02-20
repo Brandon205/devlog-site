@@ -24,6 +24,14 @@ a {
   border-radius: 10px;
   width: 75vw;
   margin-bottom: 10px;
+  position: relative;
+}
+
+.post-name {
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .post-single {
@@ -48,4 +56,8 @@ a {
   display: flex;
   align-items: center;
   font-size: larger;
+}
+
+.header-link:hover {
+  color: #212121;
 }

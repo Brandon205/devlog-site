@@ -9,9 +9,9 @@ export default function Posts() {
         content = data.posts.map((post, id) => 
             <div className="post-bkg" key={id}>
                 <img src={defaultImage} alt="image of code" className="snippet-img" />
-                <h1>{post.postName}</h1>
-                <p>{post.snippet + ".."}</p>
-                <Link to={"/post?" + post.postId} className="read-more">...read more</Link>
+                <h1 className="post-name">{post.postName}</h1>
+                <p className="post-snippet">{post.snippet + ".."}</p>
+                <Link to={"/post?" + post.postId} className="read-more">Continue Reading</Link>
             </div>
         )
     }
