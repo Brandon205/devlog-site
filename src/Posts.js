@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import defaultImage from './assets/images/defaultImage.png';
 import * as data from './assets/posts.json';
 
 export default function Posts() {
@@ -7,6 +8,7 @@ export default function Posts() {
     if (data.posts.length > 0) {
         content = data.posts.map((post, id) => 
             <div className="post-bkg" key={id}>
+                <img src={defaultImage} alt="image of code" className="snippet-img" />
                 <h1>{post.postName}</h1>
                 <p>{post.snippet + ".."}</p>
                 <Link to={"/post?" + post.postId} className="read-more">...read more</Link>

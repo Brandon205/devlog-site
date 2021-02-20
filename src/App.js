@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Post from './Post';
+import logo from './assets/images/DevLog.png';
 import './App.css';
 
 export default function App() {
@@ -10,7 +11,7 @@ export default function App() {
     <Router>
       <header className="header">
         <Link to="/" className="header-link">Home</Link>
-        <h2>Brandon's devLog</h2>
+        <img src={logo} alt="logo" />
         <Link to="/about" className="header-link">About</Link>
       </header>
       <Route exact path="/" component={Home} />
