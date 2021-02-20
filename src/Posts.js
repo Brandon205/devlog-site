@@ -1,36 +1,23 @@
 import React from 'react';
-import ReactMarkdown from 'react-markdown';
-import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter';
+import {Link} from 'react-router-dom';
 import * as data from './assets/posts.json';
 
 export default function Posts() {
-
-    const renderers = {
-        code: ({language, value}) => {
-          return <SyntaxHighlighter language={language} children={value} />
-        }
-      }
-
     let content;
     if (data.posts.length > 0) {
         content = data.posts.map((post, id) => 
             <div className="post-bkg" key={id}>
                 <h1>{post.postName}</h1>
-                <ReactMarkdown renderers={renderers} children={post.content} />
-            </div>
-        )
-    } else {
-        content = (
-            <div className="">
-                <h2>No Posts found</h2>
+                <p>{post.snippet + ".."}</p>
+                <Link to={"/post?" + post.postId} className="read-more">...read more</Link>
             </div>
         )
     }
 
     return (
-        <div className="">
-            <h1>Hello from the posts component!</h1>
-            {content}
+        <div>
+            <h1>Recent Posts</h1>
+            {content ? content : <h1>Looks like there was a problemo</h1>}
         </div>
     )
 }

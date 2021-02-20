@@ -6,9 +6,28 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.header {
+  display: flex; 
+  justify-content: space-between;
+  margin: 0 10px 0 10px;
+}
+
 .post-bkg {
   background-color: #c0c0c0;
+  font-size: 1.2em;
   padding: 10px;
   border-radius: 10px;
-  max-width: 80%;
+  width: 75vw;
+}
+
+.read-more {
+  font-style: italic;
+  display: inline;
+}
+
+.header-link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
 }
