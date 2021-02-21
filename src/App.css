@@ -15,23 +15,30 @@ a {
   justify-content: space-between;
   padding: 0 15px 0 15px;
   background-color: #757575;
+  box-shadow: 0 5px 12px;
 }
 
 .post-bkg {
   background-color: #c0c0c0;
+  display: flex;
+  justify-content: space-around;
   font-size: 1.2em;
   padding: 10px;
   border-radius: 10px;
+  min-height: 25vh;
   width: 75vw;
-  margin-bottom: 10px;
-  position: relative;
+  transition: width .5s;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 12px;
 }
 
-.post-name {
-  position: absolute;
-  top: 4%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.post-content {
+  width: 30vw;
+}
+
+.post-bkg:hover {
+  width: 76vw;
+  transition: width .5s;
 }
 
 .post-single {
@@ -40,9 +47,24 @@ a {
   font-weight: lighter;
 }
 
+.post-date {
+  font-style: italic;
+}
+
+.post-tags {
+  color: #86B4AF;
+}
+
+.post-image {
+  display: flex;
+  align-items: center;
+}
+
 .snippet-img {
-  width: 50vw;
+  width: 25vw;
   height: auto;
+  /* float: left; */
+  background-size: cover;
 }
 
 .read-more {
