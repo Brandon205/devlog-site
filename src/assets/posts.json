@@ -2,7 +2,7 @@
     "posts": [
         {
             "postName": "DevLog Post #002 - Site updates",
-            "postId": 1,
+            "postId": 0,
             "date": "2/20/2021",
             "postImage": "defaultImage",
             "tags": "Development - Web",
@@ -11,7 +11,7 @@
         },
         {
             "postName": "DevLog Post #001",
-            "postId": 0,
+            "postId": 1,
             "date": "2/21/2021",
             "postImage": "defaultImage",
             "tags": "Development - Unity",
