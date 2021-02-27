@@ -1,12 +1,21 @@
 {
     "posts": [
         {
+            "postName": "DevLog Post #003",
+            "postId": 1,
+            "date": "2/21/2021",
+            "postImage": "defaultImage",
+            "tags": "Development - Unity, Blender",
+            "snippet": "Animations are time consuming, and there is plenty of animation that needs to be done in game development. Luckily, there are quite a few sites that help with animation, or even allow you to not have to do any of it yourself!",
+            "content": "The start of the week I spent continuing to learn things like physics and how to get basic game mechanics like a camera that follows you working, but once I was done with that I wanted to have my character look at least a little better than a cylinder that glides around, so I had to create a model.\n To do that I went to Blender which I do have know how to use, but my knowledge in it is very limited, so I quickly found out that making a model myself was going to take longer than expected. Then I stumbled across a site called [Mixamo](https://www.mixamo.com/) which is a great site that provides hundreds if not thousands of animations that are free to download and use. So after looking into it a little more I found a great up to date playlist on YouTube on learning how to integrate these free animations into Unity [here](https://www.youtube.com/playlist?list=PLwyUzJb_FNeTQwyGujWRLqnfKpV-cj-eO) is a link to that.\n The second half of my week was spent going though that playlist and figuring out how all of that works, which I expected to be slightly more complicated than it was! After learning all of that I messed around for a while trying to get these new animations to work with things like a 3rd person camera and third person movement that I had learned earlier in the week, and was able to get a somewhat working system done before the weekend. The system still has a ways to go until it works the way that I want it to so I'll probably be continuing that at the start of next week, after brushing up on some Javascript and finishing this website over the weekend.\n Eventually my goal would be to be able to make super simplified versions of games in pretty short amounts of time, so in this last week I made a ton of progress towards that goal.\n ## Blender Work \n I ended up putting a few more hours of learning blender this week as well not because of game development but I needed to create a part for an old massage chair that was given to us. The part had broken and was only a fairly small piece so because I had just learned Blender and had a 3D printer I decided to see what I could do.\n After getting all of the measurements from the piece I started modeling it, and all of the time I spent 2 weeks ago creating a high quality doughnut had started to pay off, there were a ton of things that I had learned from those videos that I had to use when creating this piece so if you're wanting to get into Blender for whatever you may need it for I would highly recommend [this](https://www.youtube.com/watch?v=NyJWoyVx_XI&list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U) series by Blender Guru to learn the basics, it is great (and even teaches some more advanced things later on)."
+        },
+        {
             "postName": "DevLog Post #002 - Site updates",
             "postId": 0,
             "date": "2/20/2021",
             "postImage": "defaultImage",
             "tags": "Development - Web",
-            "snippet": "Here's an update post on my devLog site.",
+            "snippet": "Here's an update post on this devLog site.",
             "content": "After working for about 2 hours I needed to create another post to have more content, this one might be deleted soon though."
         },
         {
