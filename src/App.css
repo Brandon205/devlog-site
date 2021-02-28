@@ -8,6 +8,13 @@ a {
   align-items: center;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  background-color: #3C4042;
+}
+
+.large-heading {
+  color: #E3E3E3;
+  font-size: 2em;
+  font-style: oblique;
 }
 
 .header {
@@ -22,7 +29,9 @@ a {
   text-decoration: none;
   color: black;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   font-size: 1.5em;
 }
 
@@ -31,7 +40,7 @@ a {
 }
 
 .post-bkg {
-  background-color: #c0c0c0;
+  background-color: #E3E3E3;
   display: flex;
   justify-content: space-around;
   font-size: 1.2em;

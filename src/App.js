@@ -10,9 +10,17 @@ export default function App() {
   return (
     <Router>
       <header className="header">
-        <Link to="/" className="header-link">Home</Link>
+        <Link to="/" className="header-link">
+          <i className="material-icons medium">home</i>
+          <br />
+          Home
+        </Link>
         <img src={logo} alt="logo" />
-        <Link to="/about" className="header-link">About</Link>
+        <Link to="/about" className="header-link">
+          <i className="material-icons medium">person</i>
+          <br />
+          About
+      </Link>
       </header>
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />

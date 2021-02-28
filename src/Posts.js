@@ -24,7 +24,7 @@ export default function Posts() {
 
     return (
         <div>
-            <h1>Recent Posts</h1>
+            <h1 className="large-heading">Recent Posts</h1>
             {content ? content : <h1>Whoopsies looks like there was a problemo</h1>}
         </div>
     )
